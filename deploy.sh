@@ -10,6 +10,11 @@ function install() {
   read -p "端口号必须是数字，请重新输入端口号: " port
   done
 
+  read -p "请输入zerotier-planet要使用的版本号,例如1.12.2（版本号）: " version
+  while  [ -z "${version}" ]; do
+    read -p "版本号不能为空，请输入要使用的版本号,例如1.12.2（版本号）: " version
+  done
+
   read -p "是否自动获取公网IP地址？（y/n）" use_auto_ip
 
   if [[ "$use_auto_ip" =~ ^[Yy]$ ]]; then
@@ -54,7 +59,7 @@ function install() {
 
   echo "打包镜像"
   echo "使用的端口为：${port}"
-  docker build --no-cache --build-arg ZT_PORT=$port --network host -t $imageName .
+  docker build --no-cache --build-arg ZT_PORT=$port --build-arg ZT_VERSION=$version --network host -t $imageName .
   if [ $? -ne 0 ]; then
     echo "镜像打包失败，请重试"
     echo "国内机器打包容易失败，请多试几次"
@@ -67,6 +72,7 @@ function install() {
   docker cp zerotier-planet:/app/bin/planet /tmp/planet
 
   echo "planet文件路径为 /tmp/planet"
+  echo "planet server版本为: $version."
   echo "planet server端口为: $port, 请在防火墙放行该端口的tcp和udp协议"
   echo "enjoy~"
 }
