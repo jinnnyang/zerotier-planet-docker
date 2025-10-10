@@ -1,5 +1,5 @@
 <a href="https://edgeone.ai/?from=github">
-  <img width="300px" src="https://edgeone.ai/media/34fe3a45-492d-4ea4-ae5d-ea1087ca7b4b.png" alt="Logo" />
+  <img width="60%" src="https://edgeone.ai/media/34fe3a45-492d-4ea4-ae5d-ea1087ca7b4b.png" alt="Logo" />
   <p>
   本项目的 CDN 加速和安全保护由腾讯 EdgeOne 赞助
   </p>
@@ -22,7 +22,9 @@
 - **5群**：651935808
 
 ## 📱 微信公众号
-![二维码](assets/wechat.png)
+<!-- ![二维码](assets/wechat.png) -->
+<img src="assets/wechat.png" width="60%">
+
 
 ## ✨ 功能特性
 
@@ -71,7 +73,7 @@
 
 欢迎关注公众号获取最新动态和技术分享
 
-<img src="./assets/wx_qrcode_pub.jpg" width="300" alt="微信公众号二维码" align="center" />
+<img src="./assets/wx_qrcode_pub.jpg" width="60%" alt="微信公众号二维码" align="center" />
 
 ---
 
