@@ -1,5 +1,8 @@
 <a href="https://edgeone.ai/?from=github">
-  <img src="https://edgeone.ai/media/34fe3a45-492d-4ea4-ae5d-ea1087ca7b4b.png" alt="Logo" /> 本项目的 CDN 加速和安全保护由腾讯 EdgeOne 赞助
+  <img width="300px" src="https://edgeone.ai/media/34fe3a45-492d-4ea4-ae5d-ea1087ca7b4b.png" alt="Logo" />
+  <p>
+  本项目的 CDN 加速和安全保护由腾讯 EdgeOne 赞助
+  </p>
 </a>
 
 # Docker ZeroTier Planet
@@ -60,31 +63,11 @@
 ---
 
 ## 0. 托管服务
-
-### 0.1 自运营容器服务
-
-**寻找便捷的解决方案？**
-
-我们提供专业的托管服务：
-
-| 服务项目 | 详情 |
-|---------|------|
-| **试用期** | 免费试用 3 天 |
-| **年费** | 仅需 99￥ |
-| **带宽** | 高速带宽 300Mbit |
-| **流量政策** | 每月 100G 转发流量，P2P 连接后不计流量，超出后每 10 元 100G |
-| **机房** | 优质线路：宁波电信机房 |
-| **联系方式** | Telegram：[https://t.me/uxkram](https://t.me/uxkram) 或加入 QQ 群咨询群主 |
-
-**测速图如下：**
-
-<img src="./assets/nb-speed-test.png" width="800" alt="宁波机房测速图" align="center" />
-
-### 0.2 雨云容器服务
+### 0.1 雨云容器服务
 
 [![通过雨云一键部署](https://rainyun-apps.cn-nb1.rains3.com/materials/deploy-on-rainyun-cn.svg)](https://app.rainyun.com/apps/rca/store/6215?ref=220429)
 
-### 0.3 微信公众号
+### 0.2 微信公众号
 
 欢迎关注公众号获取最新动态和技术分享
 
